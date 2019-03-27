@@ -270,9 +270,7 @@ if(!empty($injectdll))
 }
 if(isset($lighthack))
 {
-	$content[0xE6119] = chr(0x90);
-	$content[0xE611A] = chr(0x90);
-	$content[0xE611C] = chr(0xFF);
+	$content[0xE6119] = chr(0x90); $content[0xE611A] = chr(0x90); $content[0xE611C] = chr(0xFF);
 }
 if(isset($mchack))
 {
@@ -280,10 +278,7 @@ if(isset($mchack))
 }
 if(isset($xray))
 {
-	$content[0xED979] = chr(0x90);
-	$content[0xED97A] = chr(0x90);
-	$content[0xED983] = chr(0x90);
-	$content[0xED984] = chr(0x90);
+	$content[0xED979] = chr(0x90); $content[0xED97A] = chr(0x90); $content[0xED983] = chr(0x90); $content[0xED984] = chr(0x90);
 }
 if(isset($extfiles))
 {

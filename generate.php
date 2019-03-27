@@ -30,10 +30,28 @@ else if($version == "7.60")
 	include 'clients/760.php';
 else if($version == "7.72")
 	include 'clients/772.php';
+else if($version == "7.92")
+	include 'clients/792.php';
+else if($version == "8.00")
+	include 'clients/800.php';
+else if($version == "8.10")
+	include 'clients/810.php';
+else if($version == "8.40")
+	include 'clients/840.php';
 else if($version == "8.54")
 	include 'clients/854.php';
 else if($version == "8.60")
 	include 'clients/860.php';
+else if($version == "8.70")
+	include 'clients/870.php';
+else if($version == "9.80")
+	include 'clients/980.php';
+else if($version == "10.96")
+	include 'clients/1096.php';
+else if($version == "10.97")
+	include 'clients/1097.php';
+else if($version == "10.98")
+	include 'clients/1098.php';
 else
 	die("Unknown client version");
 

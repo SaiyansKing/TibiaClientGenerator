@@ -54,8 +54,17 @@ echo '<html lang="en">
 									<option>7.40</option>
 									<option>7.60</option>
 									<option>7.72</option>
+									<option>7.92</option>
+									<option>8.00</option>
+									<option>8.10</option>
+									<option>8.40</option>
 									<option>8.54</option>
 									<option>8.60</option>
+									<option>8.70</option>
+									<option>9.80</option>
+									<option>10.96</option>
+									<option>10.97</option>
+									<option>10.98</option>
 								</select>
 							</div>
 						</div>
@@ -128,6 +137,9 @@ echo '<html lang="en">
 							<label for="injectdlltext">Inject DLL</label>
 							<input type="text" class="form-control" maxlength="100" name="injectdll" placeholder="Inject DLL name">
 						</div>
+						<p class="alert alert-warning">
+							<i class="fas fa-exclamation-circle"></i>9.80+ not work for now.</a>
+						</p>
 						<hr class="mb-4">
 						<div class="custom-control custom-checkbox">
 							<input type="checkbox" class="custom-control-input" name="light-hack" id="light-hack">
@@ -145,7 +157,7 @@ echo '<html lang="en">
 						<div class="mb-3">
 							<label for="injectdlltext">Extends:</label>
 							<p class="alert alert-warning">
-								<i class="fas fa-exclamation-circle"></i>Most of these require server-side protocol update.<br>currently only 8.54 and 8.60 works.</a>
+								<i class="fas fa-exclamation-circle"></i>Most of these require server-side protocol update.<br>Currently only 8.54 and 8.60 works.</a>
 							</p>
 							<div class="custom-control custom-checkbox">
 								<input type="checkbox" class="custom-control-input" name="ext-files" id="ext-files">
